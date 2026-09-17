@@ -1,4 +1,5 @@
- */
+// Update login logic for feature branch testing
+*/
 function login(username, password) {
   if (!username || username.trim() === '') {
     throw new Error('Username cannot be empty');
